@@ -206,5 +206,52 @@ document.getElementById('clear-btn').addEventListener('click', function(){
     document.getElementById('history-container').innerHTML = '';
 })
 
+// .....copy functionality ...........
+
+const copyClicker = document.getElementsByClassName('copy-clicker');
+const copyCounter = document.getElementById('copy-counter').innerText;
+let copyNumber = parseInt(copyCounter);
+
+for (let i = 0; i < copyClicker.length; i++) {
+    copyClicker[i].addEventListener('click', function(){
+        copyNumber = copyNumber + 1;
+        document.getElementById('copy-counter').innerText = copyNumber;
+        alert('Copied');
+        
+    })
+};
+
+document.getElementById('copy-1').addEventListener('click', function(){
+    const textCopied = document.getElementById('service-number-1').innerText;
+    navigator.clipboard.writeText(textCopied)
+    
+});
+
+document.getElementById('copy-2').addEventListener('click', function(){
+    const textCopied = document.getElementById('service-number-2').innerText;
+    navigator.clipboard.writeText(textCopied)
+    
+})
+document.getElementById('copy-3').addEventListener('click', function(){
+    const textCopied = document.getElementById('service-number-3').innerText;
+    navigator.clipboard.writeText(textCopied)
+    
+})
+document.getElementById('copy-4').addEventListener('click', function(){
+    const textCopied = document.getElementById('service-number-4').innerText;
+    navigator.clipboard.writeText(textCopied)
+    
+})
+document.getElementById('copy-5').addEventListener('click', function(){
+    const textCopied = document.getElementById('service-number-5').innerText;
+    navigator.clipboard.writeText(textCopied)
+    
+})
+
+document.getElementById('copy-6').addEventListener('click', function(){
+    const textCopied = document.getElementById('service-number-6').innerText;
+    navigator.clipboard.writeText(textCopied)
+    
+})
 
 
