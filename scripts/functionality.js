@@ -201,7 +201,10 @@ document.getElementById('call-btn-6').addEventListener('click', function(){
     }
 });
 
-
+// clear button functionality
+document.getElementById('clear-btn').addEventListener('click', function(){
+    document.getElementById('history-container').innerHTML = '';
+})
 
 
 
