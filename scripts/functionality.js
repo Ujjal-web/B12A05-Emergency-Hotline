@@ -41,7 +41,7 @@ callClicker.addEventListener('click', function(){
                                             <p class="font-hm">${localTime}</p>
                                     </div>
                                     ` 
-        console.log(historyElement)
+         
         historyContainer.appendChild(historyElement);
         alert("Calling" + " " + callName + " " + callNumber);
         
@@ -73,7 +73,7 @@ document.getElementById('call-btn-2').addEventListener('click', function(){
                                             <p class="font-hm">${localTime}</p>
                                     </div>
                                     ` 
-        console.log(historyElement)
+         
         historyContainer.appendChild(historyElement);
         alert("Calling" + " " + callName + " " + callNumber);
         
@@ -105,7 +105,7 @@ document.getElementById('call-btn-3').addEventListener('click', function(){
                                             <p class="font-hm">${localTime}</p>
                                     </div>
                                     ` 
-        console.log(historyElement)
+         
         historyContainer.appendChild(historyElement);
         alert("Calling" + " " + callName + " " + callNumber);
         
@@ -134,7 +134,7 @@ document.getElementById('call-btn-4').addEventListener('click', function(){
                                             <p class="font-hm">${localTime}</p>
                                     </div>
                                     ` 
-        console.log(historyElement)
+         
         historyContainer.appendChild(historyElement);
         alert("Calling" + " " + callName + " " + callNumber);
         
@@ -164,7 +164,7 @@ document.getElementById('call-btn-5').addEventListener('click', function(){
                                             <p class="font-hm">${localTime}</p>
                                     </div>
                                     ` 
-        console.log(historyElement)
+         
         historyContainer.appendChild(historyElement);
         alert("Calling" + " " + callName + " " + callNumber);
         
@@ -194,7 +194,7 @@ document.getElementById('call-btn-6').addEventListener('click', function(){
                                             <p class="font-hm">${localTime}</p>
                                     </div>
                                     ` 
-        console.log(historyElement)
+         
         historyContainer.appendChild(historyElement);
         alert("Calling" + " " + callName + " " + callNumber);
         
